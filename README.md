@@ -13,7 +13,7 @@ Em 2025, especialmente, estaremos celebrando a 31ª edição do WebMedia, com or
 ---
 
 > 📌 **Nota de Publicação Futura**
-> 
+> 
 > Este repositório serve como material de apoio prático para o minicurso. Informamos que um material teórico completo, detalhando os conceitos e métodos aqui aplicados, será publicado futuramente. Este material servirá como referência e o bibtext estará neste README disponível.
 
 Este repositório contém os *notebooks* desenvolvidos como exemplos práticos para o minicurso "MLLMs: Teoria e Prática", apresentado durante o **[WebMedia 2025](https://webmedia.org.br/2025/)** na PUC-RIO.
@@ -52,5 +52,14 @@ Todos os *notebooks* foram desenvolvidos para execução direta na plataforma [G
 * **Descrição:** Este *notebook* introduz uma simples adaptação da tarefa de classificação para a identificação de objetos. A diferença principal está na estruturação do *prompt*, que busca obter uma saída estruturada para facilitar o processamento.
 
 ![Image Classification](imagens/ImageClassification.png)
+
+### 4. RAG com LangGraph
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/[SEU-USUARIO-GITHUB]/[NOME-DO-REPOSITORIO]/blob/main/use-cases/rag_lang.ipynb)
+
+* **Arquivo:** `use-cases/agent_rag_langgraph.ipynb`
+* **Descrição:** Um *notebook* demonstrando a implementação de um pipeline de RAG (Retrieval-Augmented Generation) utilizando a biblioteca LangGraph para orquestrar o fluxo de dados e estados.
+
+![Pipeline RAG com LangGraph](imagens/pipeline-mllm.png)
 
 ---
