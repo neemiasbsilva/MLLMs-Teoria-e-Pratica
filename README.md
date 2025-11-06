@@ -41,7 +41,7 @@ Todos os *notebooks* foram desenvolvidos para execução direta na plataforma [G
 
 * **Arquivo:** `use-cases/FineTuning_ModernBERT.ipynb`
 * **Descrição:** Um guia para o processo de *fine-tuning* de MLLMs (usando o modelo ModernBERT) para a tarefa de classificação de sentimento. Cobre a criação de arquivos de configuração, preparação de dados, *setup* do modelo e a execução do treinamento.
-
+![MLLMsent](imagens/mllmsent.png)
 ![Fine Tuning](imagens/FineTuning.png)
 
 ### 3. Identificação de Objetos (Adaptação de Prompt)
