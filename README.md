@@ -1,26 +1,56 @@
-# MLLMs-Teoria-e-Pratica
+# Grandes Modelos de Linguagem Multimodais (MLLMs): Da Teoria à Prática
 
-Neste repositório se encontram os _notebooks_ desenvolvidos como exemplo prático para o minicurso apresentado durante o _WebMedia 2025_.
+[![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-%F0%9F%A4%97-yellow)](https://huggingface.co/)
+[![LangGraph](https://img.shields.io/badge/LangGraph-black?style=flat&logo=langchain&logoColor=white)](https://langchain-ai.github.io/langgraph/)
 
-Os _notebooks_ foram desenvolvidos para ser executados pela plataforma [_Google Colab_](https://colab.google/).
+## Sobre o Evento (WebMedia 2025)
 
-## Classificação de Sentimentos
+Realizado anualmente pela Sociedade Brasileira de Computação (SBC), o Simpósio Brasileiro de Sistemas Multimodais e Web (WebMedia) é o principal evento do tema no Brasil e uma excelente oportunidade de intercâmbios científico e técnico entre alunos, pesquisadores e profissionais das áreas de Multimídia, Hipermídia e Web.
 
-Em [Classify_Sentiment_DeepseekVL](use-cases/Classify_Sentiment_DeepseekVL.ipynb) é apresentado um breve tutorial sobre o uso de MLLMs para a inferência de sentimentos em imagens utilizando o modelo de MLLM DeepseekVL.
+Em 2025, especialmente, estaremos celebrando a 31ª edição do WebMedia, com organização da Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio) e do Instituto Militar de Engenharia (IME).
+
+---
+
+> 📌 **Nota de Publicação Futura**
+> 
+> Este repositório serve como material de apoio prático para o minicurso. Informamos que um material teórico completo, detalhando os conceitos e métodos aqui aplicados, será publicado futuramente. Este material servirá como referência e o bibtext estará neste README disponível.
+
+Este repositório contém os *notebooks* desenvolvidos como exemplos práticos para o minicurso "MLLMs: Teoria e Prática", apresentado durante o **[WebMedia 2025](https://webmedia.org.br/2025/)** na PUC-RIO.
+
+O objetivo é fornecer guias práticos sobre como aplicar Modelos de Linguagem Multimodais (MLLMs) em diferentes tarefas, como classificação de sentimentos e *fine-tuning*.
+
+## Como Executar
+
+Todos os *notebooks* foram desenvolvidos para execução direta na plataforma [Google Colab](https://colab.google/). Basta clicar no emblema "Open in Colab" correspondente ao caso de uso que você deseja explorar.
+
+## Notebooks Práticos
+
+### 1. Classificação de Sentimentos com DeepseekVL
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/[SEU-USUARIO-GITHUB]/[NOME-DO-REPOSITORIO]/blob/main/use-cases/Classify_Sentiment_DeepseekVL.ipynb)
+
+* **Arquivo:** `use-cases/Classify_Sentiment_DeepseekVL.ipynb`
+* **Descrição:** Um tutorial sobre o uso de MLLMs para inferência de sentimentos em imagens. Aborda a configuração do ambiente, carregamento do modelo (DeepseekVL), inicialização do *tokenizer*, e testes de inferência (única e em *batch*).
 
 ![Classificação de Sentimentos](imagens/SentimentAnalysis.png)
 
-O tutorial aborda a configuração do ambiente, carregamento do modelo e inicialização do tokenizer, para então realizar um teste de inferência e um teste de inferência em _Batch_.
+### 2. Fine-tuning de MLLMs com ModernBERT
 
-## Fine-tuning
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/[SEU-USUARIO-GITHUB]/[NOME-DO-REPOSITORIO]/blob/main/use-cases/FineTuning_ModernBERT.ipynb)
 
-O _notebook_ [FineTuning_ModernBERT](use-cases/FineTuning_ModernBERT.ipynb) oferece um guia para o processo de fine-tuning de LLMs Multimodais a partir do uso do modelo ModernBERT para a tarefa de classificação de sentimento. 
+* **Arquivo:** `use-cases/FineTuning_ModernBERT.ipynb`
+* **Descrição:** Um guia para o processo de *fine-tuning* de MLLMs (usando o modelo ModernBERT) para a tarefa de classificação de sentimento. Cobre a criação de arquivos de configuração, preparação de dados, *setup* do modelo e a execução do treinamento.
 
 ![Fine Tuning](imagens/FineTuning.png)
 
-Neste _notebook_ são tratados os temas de configuração de ambiente, criação de arquivo de configuração, carregamento e preparação de dados setup do modelo e definição de funções para treinamento, para finalmente executar o _fine-tuning_ do modelo.
+### 3. Identificação de Objetos (Adaptação de Prompt)
 
-## Identificação de objetos
-O notebooke [IdentifyFeatures](use-cases/IdentifyFeatures.ipynb) introduz uma simples adaptação da tarefa realizada em [Classificação de Sentimentos](#classificação-de-sentimentos) para utilizar o framework proposto para classificação de imagens. A diferença principal se encontra na estrutura do _prompt_, que busca obter uma saída mais facilmente processável para identificação de objetos.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/[SEU-USUARIO-GITHUB]/[NOME-DO-REPOSITORIO]/blob/main/use-cases/IdentifyFeatures.ipynb)
+
+* **Arquivo:** `use-cases/IdentifyFeatures.ipynb`
+* **Descrição:** Este *notebook* introduz uma simples adaptação da tarefa de classificação para a identificação de objetos. A diferença principal está na estruturação do *prompt*, que busca obter uma saída estruturada para facilitar o processamento.
 
 ![Image Classification](imagens/ImageClassification.png)
+
+---
