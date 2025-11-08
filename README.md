@@ -28,7 +28,7 @@ Todos os *notebooks* foram desenvolvidos para execução direta na plataforma [G
 
 ### 1. Classificação de Sentimentos com DeepseekVL
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/[SEU-USUARIO-GITHUB]/[NOME-DO-REPOSITORIO]/blob/main/use-cases/Classify_Sentiment_DeepseekVL.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neemiasbsilva/MLLMs-Teoria-e-Pratica/blob/main/use-cases/Classify_Sentiment_DeepseekVL.ipynb)
 
 * **Arquivo:** `use-cases/Classify_Sentiment_DeepseekVL.ipynb`
 * **Descrição:** Um tutorial sobre o uso de MLLMs para inferência de sentimentos em imagens. Aborda a configuração do ambiente, carregamento do modelo (DeepseekVL), inicialização do *tokenizer*, e testes de inferência (única e em *batch*).
@@ -37,7 +37,7 @@ Todos os *notebooks* foram desenvolvidos para execução direta na plataforma [G
 
 ### 2. Fine-tuning de MLLMs com ModernBERT
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/[SEU-USUARIO-GITHUB]/[NOME-DO-REPOSITORIO]/blob/main/use-cases/FineTuning_ModernBERT.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neemiasbsilva/MLLMs-Teoria-e-Pratica/blob/main/use-cases/FineTuning_ModernBERT.ipynb)
 
 * **Arquivo:** `use-cases/FineTuning_ModernBERT.ipynb`
 * **Descrição:** Um guia para o processo de *fine-tuning* de MLLMs (usando o modelo ModernBERT) para a tarefa de classificação de sentimento. Cobre a criação de arquivos de configuração, preparação de dados, *setup* do modelo e a execução do treinamento.
@@ -46,7 +46,7 @@ Todos os *notebooks* foram desenvolvidos para execução direta na plataforma [G
 
 ### 3. Identificação de Objetos (Adaptação de Prompt)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/[SEU-USUARIO-GITHUB]/[NOME-DO-REPOSITORIO]/blob/main/use-cases/IdentifyFeatures.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neemiasbsilva/MLLMs-Teoria-e-Pratica/blob/main/use-cases/IdentifyFeatures.ipynb)
 
 * **Arquivo:** `use-cases/IdentifyFeatures.ipynb`
 * **Descrição:** Este *notebook* introduz uma simples adaptação da tarefa de classificação para a identificação de objetos. A diferença principal está na estruturação do *prompt*, que busca obter uma saída estruturada para facilitar o processamento.
@@ -55,7 +55,7 @@ Todos os *notebooks* foram desenvolvidos para execução direta na plataforma [G
 
 ### 4. RAG com LangGraph
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/[SEU-USUARIO-GITHUB]/[NOME-DO-REPOSITORIO]/blob/main/use-cases/rag_lang.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neemiasbsilva/MLLMs-Teoria-e-Pratica/blob/main/use-cases/agent_rag_langgraph.ipynb)
 
 * **Arquivo:** `use-cases/agent_rag_langgraph.ipynb`
 * **Descrição:** Um *notebook* demonstrando a implementação de um pipeline de RAG (Retrieval-Augmented Generation) utilizando a biblioteca LangGraph para orquestrar o fluxo de dados e estados.
