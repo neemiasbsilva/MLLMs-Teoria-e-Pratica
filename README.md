@@ -42,8 +42,8 @@ Todos os *notebooks* foram desenvolvidos para execução direta na plataforma [G
 * **Arquivo:** `use-cases/FineTuning_ModernBERT.ipynb`
 * **Descrição:** Um guia para o processo de *fine-tuning* de MLLMs (usando o modelo ModernBERT) para a tarefa de classificação de sentimento. Cobre a criação de arquivos de configuração, preparação de dados, *setup* do modelo e a execução do treinamento.
 
-<img src="imagens/mllmsent.png" style="margin-left: auto; margin-right: auto;"/>
-<img src="imagens/FineTuning.png" style="margin-left: auto; margin-right: auto;"/>
+<img src="imagens/mllmsent.png" title="MLLMSent"/>
+<img src="imagens/FineTuning.png" title="Fine Tuning"/>
 
 ### 3. Identificação de Objetos (Adaptação de Prompt)
 
@@ -53,9 +53,10 @@ Todos os *notebooks* foram desenvolvidos para execução direta na plataforma [G
 * **Descrição:** Este *notebook* introduz uma simples adaptação da tarefa de classificação para a identificação de objetos. A diferença principal está na estruturação do *prompt*, que busca obter uma saída estruturada para facilitar o processamento.
 
 <figure>
-<img src="imagens/ImageClassification.png" style="margin-left: auto; margin-right: auto;"/>
-<figcaption style="margin-left: auto; margin-right: auto;">Crédito: Imagem de Sebastian Raschka</figcaption>
+<img src="imagens/ImageClassification.png" title="Classificação de Imagens"/>
+<figcaption>Crédito: Imagem de Sebastian Raschka</figcaption>
 </figure>
+
 ### 4. RAG com LangGraph
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/neemiasbsilva/MLLMs-Teoria-e-Pratica/blob/main/use-cases/agent_rag_langgraph.ipynb)
