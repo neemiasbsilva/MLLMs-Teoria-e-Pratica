@@ -10,11 +10,11 @@ Realizado anualmente pela Sociedade Brasileira de Computação (SBC), o Simpósi
 
 Em 2025, especialmente, estaremos celebrando a 31ª edição do WebMedia, com organização da Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio) e do Instituto Militar de Engenharia (IME).
 
----
+## Como Citar Este Trabalho
 
-> 📌 **Nota de Publicação Futura**
-> 
-> Este repositório serve como material de apoio prático para o minicurso. Informamos que um material teórico completo, detalhando os conceitos e métodos aqui aplicados, será publicado futuramente. Este material servirá como referência e o bibtext estará neste README disponível.
+Este trabalho serve como material de apoio para o workshop realizado durante o _WebMedia_ e para a publicação em [https://arxiv.org/abs/2602.12302](https://arxiv.org/abs/2602.12302). Caso seja de seu interesse, utilize a publicação do arxiv para a citação.
+
+---
 
 Este repositório contém os *notebooks* desenvolvidos como exemplos práticos para o minicurso "MLLMs: Teoria e Prática", apresentado durante o **[WebMedia 2025](https://webmedia.org.br/2025/)** na PUC-RIO.
 
