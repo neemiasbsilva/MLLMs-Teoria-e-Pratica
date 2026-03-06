@@ -10,10 +10,6 @@ Realizado anualmente pela Sociedade Brasileira de Computação (SBC), o Simpósi
 
 Em 2025, especialmente, estaremos celebrando a 31ª edição do WebMedia, com organização da Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio) e do Instituto Militar de Engenharia (IME).
 
-## Como Citar Este Trabalho
-
-Este trabalho serve como material de apoio para o workshop realizado durante o _WebMedia_ e para a publicação em [https://arxiv.org/abs/2602.12302](https://arxiv.org/abs/2602.12302). Caso seja de seu interesse, utilize a publicação do arxiv para a citação.
-
 ---
 
 Este repositório contém os *notebooks* desenvolvidos como exemplos práticos para o minicurso "MLLMs: Teoria e Prática", apresentado durante o **[WebMedia 2025](https://webmedia.org.br/2025/)** na PUC-RIO.
@@ -67,3 +63,19 @@ Todos os *notebooks* foram desenvolvidos para execução direta na plataforma [G
 ![Pipeline RAG com LangGraph](imagens/pipeline-mllm.png)
 
 ---
+
+## Paper e Citação
+
+Caso faça uso deste trabalho, por favor cite o [paper](https://arxiv.org/abs/2602.12302):
+
+```
+@misc{dasilva2026grandesmodeloslinguagemmultimodais,
+      title={Grandes Modelos de Linguagem Multimodais (MLLMs): Da Teoria \`a Pr\'atica}, 
+      author={Neemias da Silva and Júlio C. W. Scholz and John Harrison and Marina Borges and Paulo Ávila and Frances A Santos and Myriam Delgado and Rodrigo Minetto and Thiago H Silva},
+      year={2026},
+      eprint={2602.12302},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2602.12302}, 
+}
+```
