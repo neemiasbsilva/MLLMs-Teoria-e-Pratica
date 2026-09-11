@@ -66,16 +66,21 @@ Todos os *notebooks* foram desenvolvidos para execução direta na plataforma [G
 
 ## Paper e Citação
 
-Caso faça uso deste trabalho, por favor cite o [paper](https://arxiv.org/abs/2602.12302):
+Caso faça uso deste trabalho, por favor cite o [capítulo]([https://arxiv.org/abs/2602.12302](https://books-sol.sbc.org.br/index.php/sbc/catalog/view/208/934/2001)):
 
 ```
-@misc{dasilva2026grandesmodeloslinguagemmultimodais,
-      title={Grandes Modelos de Linguagem Multimodais (MLLMs): Da Teoria \`a Pr\'atica}, 
-      author={Neemias da Silva and Júlio C. W. Scholz and John Harrison and Marina Borges and Paulo Ávila and Frances A Santos and Myriam Delgado and Rodrigo Minetto and Thiago H Silva},
-      year={2026},
-      eprint={2602.12302},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2602.12302}, 
+@incollection{dasilva2025mllms,
+  author    = {da Silva, Neemias and Scholz, J{\'u}lio C. W. and Harrison, John and Borges, Marina and {\'A}vila, Paulo and Santos, Frances A. and Delgado, Myriam and Minetto, Rodrigo and Silva, Thiago H.},
+  title     = {Grandes Modelos de Linguagem Multimodais ({MLLMs}): Da Teoria {\`a} Pr{\'a}tica},
+  booktitle = {Minicursos do WebMedia 2025},
+  editor    = {Viana de Carvalho, Windson and Goularte, Rudinei and Willrich, Roberto and Barr{\'e}re, Eduardo and Colcher, Sergio and Duarte, Julio Cesar and da Veiga, {\'A}lvaro},
+  chapter   = {1},
+  publisher = {Sociedade Brasileira de Computa{\c{c}}{\~a}o},
+  address   = {Porto Alegre, RS, Brasil},
+  year      = {2025},
+  isbn      = {978-85-7669-679-7},
+  doi       = {10.5753/sbc.20879.7.1},
+  url       = {https://books-sol.sbc.org.br/index.php/sbc/catalog/view/208/935/2002},
+  language  = {Portuguese}
 }
 ```
